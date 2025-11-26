@@ -1,0 +1,62 @@
+body {
+  background: #faf7ff;
+  font-family: "Libre Baskerville", serif;
+}
+
+h1 {
+  font-weight: 700;
+  color: #5c2d91;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #6c34a3;
+  font-weight: 500;
+}
+
+.filter-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.05);
+}
+
+.form-select {
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+
+.btn-purple {
+  background: #6f3bbd;
+  color: white;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}
+
+.btn-purple:hover,
+.navigation .btn-primary:hover {
+  background: #5a2e99;
+  color: #fff;
+}
+.navigation .btn-primary {
+  background: #6f3bbd;
+  color: white;
+  border: none;
+}
+
+.navigation {
+  background-color: #a78dd5;
+}
+.navigation li a, .foot li a, .foot p, .foot hr{
+  color: white !important;
+}
+.navigation a:hover {
+  color: #565e64 !important;
+}
+.navigation svg {
+  color: white;
+}
+.foot{
+     background: #a78dd5;
+}

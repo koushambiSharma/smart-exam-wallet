@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="container">
+        <header
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <div class="col-md-3 mb-2 mb-md-0"> <a href="/"
+                    class="d-inline-flex link-body-emphasis text-decoration-none"> <svg
+                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-bluesky" viewBox="0 0 16 16">
+                        <path
+                            d="M3.468 1.948C5.303 3.325 7.276 6.118 8 7.616c.725-1.498 2.698-4.29 4.532-5.668C13.855.955 16 .186 16 2.632c0 .489-.28 4.105-.444 4.692-.572 2.04-2.653 2.561-4.504 2.246 3.236.551 4.06 2.375 2.281 4.2-3.376 3.464-4.852-.87-5.23-1.98-.07-.204-.103-.3-.103-.218 0-.081-.033.014-.102.218-.379 1.11-1.855 5.444-5.231 1.98-1.778-1.825-.955-3.65 2.28-4.2-1.85.315-3.932-.205-4.503-2.246C.28 6.737 0 3.12 0 2.632 0 .186 2.145.955 3.468 1.948" />
+                    </svg> </a> </div>
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+                <li><a href="#" class="nav-link px-2">Features</a></li>
+                <li><a href="#" class="nav-link px-2">Pricing</a></li>
+                <li><a href="#" class="nav-link px-2">FAQs</a></li>
+                <li><a href="#" class="nav-link px-2">About</a></li>
+            </ul>
+
+            <div class="col-md-3 text-end">
+                <a href="./index.ejs"><button type="button" class="btn btn-primary">Home</button></a>
+                <button type="button" class="btn btn-primary">Wallet Bot</button>
+            </div>
+        </header>
+        </div>
+    </div>
+    <!--main-->
+
+    <div class="container text-center mt-5">
+        <h1>Question Papers</h1>
+        <div class="subtitle mt-2">CSVTU Question Papers & CT Question Papers</div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="filter-card">
+            <form>
+                <div class="row g-4">
+
+                    <div class="col-md-3">
+                        <label class="form-label fw-semibold">Exam/CT:</label>
+                        <select class="form-select">
+                            <option selected>Select Type</option>
+                            <option>CT</option>
+                            <option>Semester Exam</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label class="form-label fw-semibold">Course:</label>
+                        <select class="form-select">
+                            <option selected>Select Course</option>
+                            <option>B.Tech</option>
+                            <option>Diploma</option>
+                            <option>M.Tech</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label class="form-label fw-semibold">Branch:</label>
+                        <select class="form-select">
+                            <option selected>Select Branch</option>
+                            <option>CSE</option>
+                            <option>IT</option>
+                            <option>Mechanical</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label class="form-label fw-semibold">Semester:</label>
+                        <select class="form-select">
+                            <option selected>Select Semester</option>
+                            <option>1st</option>
+                            <option>2nd</option>
+                            <option>3rd</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-purple">Filter</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="fixed-bottom foot">
+    <div class="container">
+        <footer class="py-3 my-4 ">
+            <ul class="nav justify-content-center mb-1">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Made by | Akansha Mishra, Koushambi Sharma, Mahak Shaikh Raza</a></li>
+            </ul>
+            <hr style="border: 2px solid white;">
+            <p class="text-center text-body-secondary">© 2025 smart exam wallet</p>
+        </footer>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
